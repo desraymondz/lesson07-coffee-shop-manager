@@ -32,7 +32,6 @@ export default function CoffeeShopManager() {
         // ========================================
         // 📚 DEMO useEffect 3: Load saved customer count from localStorage on Mount
         // ========================================
-        // This useEffect loads customerCount and orders from localStorage on mount
         const savedCustomerCount = localStorage.getItem('coffeeShop_customerCount');
         if (savedCustomerCount !== null) {
             setCustomerCount(parseInt(savedCustomerCount, 10));
